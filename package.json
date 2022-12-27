@@ -1,0 +1,24 @@
+{
+  "name": "property-documenting-service",
+  "version": "1.0.0",
+  "description": "A property documenting service that exposes an api for maintaining property data",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "rm -rf build/ && prettier --write src/ && tsc",
+    "test": "test"
+  },
+  "author": "Kate Louise Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.14",
+    "@types/morgan": "^1.9.3",
+    "axios": "^1.1.2",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}
